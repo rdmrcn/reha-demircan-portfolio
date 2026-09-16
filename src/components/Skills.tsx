@@ -8,7 +8,7 @@ export function Skills() {
         <SectionHeading
           eyebrow="Skills"
           title="Tools I work with"
-          description="Grouped by the areas I use most: backend, frontend, mobile, and supporting tools."
+          description="A broader stack across APIs, web UI, and mobile — grouped by how I actually use them."
         />
 
         <div className="grid gap-4 sm:grid-cols-2">
@@ -20,6 +20,7 @@ export function Skills() {
               <h3 className="font-mono text-xs tracking-[0.18em] text-accent uppercase">
                 {group.title}
               </h3>
+              <p className="mt-2 text-sm leading-relaxed text-muted">{group.summary}</p>
               <div className="mt-4 flex flex-wrap gap-2">
                 {group.items.map((item) => (
                   <span
