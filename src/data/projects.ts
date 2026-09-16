@@ -39,14 +39,14 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 'novastore',
-    title: 'NovaStore SQL',
+    id: 'motor-legends',
+    title: 'Legendary Gears',
     description:
-      'E-commerce SQL Server project with sales reporting, category analysis, and query-driven dashboards.',
-    category: 'backend',
-    stack: ['SQL Server', 'T-SQL', 'Excel'],
-    github: 'https://github.com/rdmrcn/novastore-sql-database-project',
-    images: ['/projects/novastore.jpg'],
+      'Motorcycle catalog web app with auth, catalog browsing, and a dark branded storefront.',
+    category: 'frontend',
+    stack: ['React', 'JavaScript', 'CSS'],
+    github: 'https://github.com/rdmrcn/Legendary-Gears---Web-Motorcycle-Shop',
+    images: ['/projects/motor-legends-catalog.png', '/projects/motor-legends.png'],
   },
   {
     id: 'taskflow',
@@ -74,14 +74,14 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 'motor-legends',
-    title: 'Legendary Gears',
+    id: 'novastore',
+    title: 'NovaStore SQL',
     description:
-      'Motorcycle catalog web app with auth, catalog browsing, and a dark branded storefront.',
-    category: 'frontend',
-    stack: ['React', 'JavaScript', 'CSS'],
-    github: 'https://github.com/rdmrcn/Legendary-Gears---Web-Motorcycle-Shop',
-    images: ['/projects/motor-legends-catalog.png', '/projects/motor-legends.png'],
+      'E-commerce SQL Server project with sales reporting, category analysis, and query-driven dashboards.',
+    category: 'backend',
+    stack: ['SQL Server', 'T-SQL', 'Excel'],
+    github: 'https://github.com/rdmrcn/novastore-sql-database-project',
+    images: ['/projects/novastore.jpg'],
   },
   {
     id: 'weather',
@@ -100,7 +100,7 @@ export const projects: Project[] = [
     category: 'backend',
     stack: ['Python', 'Flask', 'HTML', 'CSS'],
     github: 'https://github.com/rdmrcn/Flask-Website-Tutorial-Beginner-Level-',
-    images: ['/projects/flask-website.svg'],
+    images: ['/projects/flask-website.jpg'],
   },
   {
     id: 'match-blast',
