@@ -30,14 +30,14 @@ export function Hero() {
           <a
             href={site.cvPath}
             download
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-medium text-slate-950 transition hover:bg-cyan-50"
+            className="inline-flex items-center justify-center gap-2 rounded-full border border-cyan-400/35 bg-cyan-400/10 px-5 py-3 text-sm font-medium text-cyan-100 transition hover:border-cyan-300/50 hover:bg-cyan-400/18"
           >
             <Download size={16} />
             Download CV
           </a>
           <a
             href="#projects"
-            className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 px-5 py-3 text-sm text-slate-200 transition hover:border-white/30 hover:bg-white/5"
+            className="inline-flex items-center justify-center gap-2 rounded-full border border-white/12 bg-white/4 px-5 py-3 text-sm text-slate-200 transition hover:border-white/25 hover:bg-white/8"
           >
             View projects
             <ArrowDown size={16} />

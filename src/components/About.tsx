@@ -17,7 +17,7 @@ const points = [
 
 export function About() {
   return (
-    <section id="about" className="scroll-mt-24 px-4 py-20 sm:px-6">
+    <section id="about" className="scroll-mt-24 border-y border-white/6 bg-white/[0.02] px-4 py-20 sm:px-6">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="About"

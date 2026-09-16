@@ -22,13 +22,13 @@ export function Projects() {
         <SectionHeading
           eyebrow="Projects"
           title="Selected work"
-          description="Filter by stack. Cards are rendered from a category-based project list — swap screenshots and repo links when you are ready."
+          description="Backend, frontend, and mobile work. Filter the list or open a GitHub repo for details."
         />
 
         <div
           role="tablist"
           aria-label="Project categories"
-          className="mx-auto mb-10 flex max-w-xl flex-wrap justify-center gap-2 rounded-full border border-white/8 bg-white/3 p-1.5"
+          className="mx-auto mb-10 flex max-w-xl flex-wrap justify-center gap-1 rounded-full border border-white/10 bg-[#0c121c] p-1.5"
         >
           {projectFilters.map((item) => {
             const active = filter === item.id
@@ -41,8 +41,8 @@ export function Projects() {
                 onClick={() => setFilter(item.id)}
                 className={`rounded-full px-4 py-2 text-sm transition duration-300 ${
                   active
-                    ? 'bg-white text-slate-950 shadow-sm'
-                    : 'text-slate-300 hover:text-white'
+                    ? 'bg-cyan-400/15 text-cyan-100 ring-1 ring-cyan-400/30'
+                    : 'text-slate-400 hover:text-white'
                 }`}
               >
                 {item.label}

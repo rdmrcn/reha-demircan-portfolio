@@ -10,8 +10,9 @@ export type Project = {
   description: string
   category: ProjectCategory
   stack: string[]
-  github: string
+  github?: string
   liveDemo?: string
+  image: string
 }
 
 export const projectFilters: { id: ProjectFilter; label: string }[] = [
@@ -26,46 +27,49 @@ export const projects: Project[] = [
     id: 'financial-crm',
     title: 'Financial CRM',
     description:
-      'Desktop CRM for tracking bills, bank balances, and spending. Built with WinForms, Entity Framework, and SQL Server for day-to-day financial operations.',
+      'Desktop CRM for tracking bills, bank balances, and spending with Entity Framework and SQL Server.',
     category: 'backend',
     stack: ['C#', '.NET', 'WinForms', 'Entity Framework', 'SQL Server'],
-    github: '#',
+    image: '/projects/financial-crm.png',
+  },
+  {
+    id: 'bank-finance-mvc',
+    title: 'Bank Finance Management',
+    description:
+      'ASP.NET MVC app for bank and finance operations: accounts, transactions, and admin views backed by SQL.',
+    category: 'backend',
+    stack: ['C#', 'ASP.NET Core MVC', 'SQL Server', 'Entity Framework'],
+    github: 'https://github.com/rdmrcn/BANK-FINANCE-MANAGMENT-with-MVC-Proj',
+    image: '/projects/bank-finance.png',
   },
   {
     id: 'novastore',
     title: 'NovaStore SQL Database',
     description:
-      'E-commerce data model covering products, customers, orders, and order details. Includes relational design, sample data, and query work in SQL Server.',
+      'E-commerce data model for products, customers, and orders, with relational design and reporting queries.',
     category: 'backend',
     stack: ['SQL Server', 'T-SQL', 'Relational Design'],
-    github: '#',
+    github: 'https://github.com/rdmrcn/novastore-sql-database-project',
+    image: '/projects/novastore.png',
   },
   {
-    id: 'mvc-catalog',
-    title: 'ASP.NET Core MVC Catalog',
+    id: 'taskflow',
+    title: 'Taskflow Daily',
     description:
-      'MVC web app for listing and managing catalog records with server-rendered views, form validation, and SQL-backed CRUD through Entity Framework.',
-    category: 'backend',
-    stack: ['C#', 'ASP.NET Core MVC', 'Entity Framework', 'SQL Server'],
-    github: '#',
-  },
-  {
-    id: 'react-todo',
-    title: 'React CRUD Task Manager',
-    description:
-      'Internship frontend project: create, edit, complete, filter, and delete tasks. Data persists in LocalStorage. Built with React and Tailwind CSS and prepared for Netlify.',
+      'Internship React CRUD app: add, edit, complete, and filter tasks. Data stays in LocalStorage.',
     category: 'frontend',
     stack: ['React', 'JavaScript', 'Tailwind CSS', 'LocalStorage'],
-    github: '#',
-    liveDemo: 'https://your-app-name.netlify.app',
+    github: 'https://github.com/rdmrcn/taskflow-daily-application',
+    image: '/projects/taskflow.png',
   },
   {
     id: 'coffee-hawai',
     title: 'Coffee Hawai Catalog',
     description:
-      'Flutter catalog app with a Hawaii-inspired coffee menu. Products load from local JSON and are presented in a clean mobile layout.',
+      'Flutter mini catalog of Hawaii-inspired coffee drinks, built to run as a mobile-style web app.',
     category: 'mobile',
     stack: ['Flutter', 'Dart', 'JSON'],
-    github: '#',
+    github: 'https://github.com/rdmrcn/coffee-hawai-web',
+    image: '/projects/coffee-hawai.png',
   },
 ]
