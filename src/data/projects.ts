@@ -35,7 +35,6 @@ export const projects: Project[] = [
       '/projects/financial-crm.png',
       '/projects/financial-crm-menu.png',
       '/projects/financial-crm-login.png',
-      '/projects/financial-crm-dashboard-2.png',
       '/projects/financial-crm-copyright.png',
     ],
   },
