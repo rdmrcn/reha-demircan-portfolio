@@ -12,7 +12,7 @@ export type Project = {
   stack: string[]
   github?: string
   liveDemo?: string
-  image: string
+  images: string[]
 }
 
 export const projectFilters: { id: ProjectFilter; label: string }[] = [
@@ -27,40 +27,83 @@ export const projects: Project[] = [
     id: 'financial-crm',
     title: 'Financial CRM',
     description:
-      'Finance CRM for bills, bank balances, and spending — ASP.NET MVC with Entity Framework and SQL Server.',
+      'Desktop CRM for bills, bank balances, and spending with dashboards and SQL-backed records.',
     category: 'backend',
-    stack: ['C#', '.NET', 'ASP.NET Core MVC', 'Entity Framework', 'SQL Server'],
+    stack: ['C#', '.NET', 'WinForms', 'Entity Framework', 'SQL Server'],
     github: 'https://github.com/rdmrcn/BANK-FINANCE-MANAGMENT-with-MVC-Proj',
-    image: '/projects/financial-crm.png',
+    images: ['/projects/financial-crm.png', '/projects/financial-crm-login.png'],
   },
   {
     id: 'novastore',
-    title: 'NovaStore SQL Database',
+    title: 'NovaStore SQL',
     description:
-      'E-commerce data model for products, customers, and orders, with relational design and reporting queries.',
+      'E-commerce SQL Server project with sales reporting, category analysis, and query-driven dashboards.',
     category: 'backend',
-    stack: ['SQL Server', 'T-SQL', 'Relational Design'],
+    stack: ['SQL Server', 'T-SQL', 'Excel'],
     github: 'https://github.com/rdmrcn/novastore-sql-database-project',
-    image: '/projects/novastore.png',
+    images: ['/projects/novastore.jpg'],
   },
   {
     id: 'taskflow',
-    title: 'Taskflow Daily',
+    title: 'TaskFlow',
     description:
-      'Internship React CRUD app: add, edit, complete, and filter tasks. Data stays in LocalStorage.',
+      'Internship React CRUD task manager with filters, progress, and LocalStorage persistence.',
     category: 'frontend',
     stack: ['React', 'JavaScript', 'Tailwind CSS', 'LocalStorage'],
     github: 'https://github.com/rdmrcn/taskflow-daily-application',
-    image: '/projects/taskflow.png',
+    images: ['/projects/taskflow.png'],
   },
   {
     id: 'coffee-hawai',
-    title: 'Coffee Hawai Catalog',
+    title: 'Coffee Hawai',
     description:
-      'Flutter mini catalog of Hawaii-inspired coffee drinks, built to run as a mobile-style web app.',
+      'Flutter coffee catalog with menu, cart, and order flow in a mobile-first layout.',
     category: 'mobile',
     stack: ['Flutter', 'Dart', 'JSON'],
     github: 'https://github.com/rdmrcn/coffee-hawai-web',
-    image: '/projects/coffee-hawai.png',
+    images: [
+      '/projects/coffee-hawai.png',
+      '/projects/coffee-hawai-menu.png',
+      '/projects/coffee-hawai-menu-2.png',
+      '/projects/coffee-hawai-cart.png',
+    ],
+  },
+  {
+    id: 'motor-legends',
+    title: 'Legendary Gears',
+    description:
+      'Motorcycle catalog web app with auth, catalog browsing, and a dark branded storefront.',
+    category: 'frontend',
+    stack: ['React', 'JavaScript', 'CSS'],
+    github: 'https://github.com/rdmrcn/Legendary-Gears---Web-Motorcycle-Shop',
+    images: ['/projects/motor-legends.png'],
+  },
+  {
+    id: 'weather',
+    title: 'Simple Weather App',
+    description: 'Lightweight weather client that fetches and displays current conditions.',
+    category: 'frontend',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/rdmrcn/Simple-Weather-App-',
+    images: ['/projects/weather.svg'],
+  },
+  {
+    id: 'flask-website',
+    title: 'Flask Website',
+    description:
+      'Beginner Flask site with routing, templates, and static files for learning web backends.',
+    category: 'backend',
+    stack: ['Python', 'Flask', 'HTML', 'CSS'],
+    github: 'https://github.com/rdmrcn/Flask-Website-Tutorial-Beginner-Level-',
+    images: ['/projects/flask-website.svg'],
+  },
+  {
+    id: 'match-blast',
+    title: 'Match Blast',
+    description: 'Mobile match-style puzzle game built in Unity.',
+    category: 'mobile',
+    stack: ['Unity', 'C#', 'Mobile'],
+    github: 'https://github.com/rdmrcn/Match-Game-Unity-Project',
+    images: ['/projects/match-blast.svg'],
   },
 ]
