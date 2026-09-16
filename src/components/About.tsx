@@ -4,7 +4,7 @@ const experience = [
   {
     company: 'TNC Group',
     role: 'Information Systems Intern',
-    period: 'Internship',
+    period: '2 months',
     body: 'Worked on information systems with a backend focus: C#, .NET, SQL Server, Entity Framework, and API-based services supporting internal workflows.',
   },
   {
