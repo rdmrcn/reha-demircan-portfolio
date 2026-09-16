@@ -22,7 +22,7 @@ export function Hero() {
           {site.name}
         </h1>
         <p className="mt-4 text-lg text-cyan-100/80 sm:text-xl">{site.title}</p>
-        <p className="mt-6 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
+        <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
           {site.intro}
         </p>
 

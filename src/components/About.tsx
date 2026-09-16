@@ -3,15 +3,15 @@ import { SectionHeading } from './SectionHeading'
 const points = [
   {
     title: 'Education',
-    body: 'Final-year university student focused on software development, databases, and building complete applications from idea to working product.',
+    body: 'Final-year university student with a focus on software engineering, databases, and delivering complete applications rather than isolated coursework exercises.',
   },
   {
     title: 'Internships',
-    body: 'Two internships completed: one in IT operations and one in software development, covering real workflows, teamwork, and delivery under guidance.',
+    body: 'Two internships completed — IT operations and software development. Experience with real tickets, teamwork, and delivering work to a standard that others can use.',
   },
   {
-    title: 'Self-driven work',
-    body: 'Outside class and internships I keep building — desktop CRM, SQL models, React apps, and Flutter experiments — to turn coursework into a portfolio I can show.',
+    title: 'Selected delivery',
+    body: 'Shipped a Financial CRM on .NET and SQL Server, a React internship CRUD app, Flutter catalog work, and SQL reporting models. Comfortable moving between backend, frontend, and mobile.',
   },
 ]
 
@@ -21,8 +21,8 @@ export function About() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="About"
-          title="A junior developer who learns by shipping"
-          description="I combine university coursework with internships and personal projects to grow as a full-stack-minded software developer."
+          title="Junior developer with internships and shipped software"
+          description="I am looking for a junior role where I can contribute to a real product team. I already work across C#, .NET, SQL, React, and Flutter, and I am used to finishing features — not only starting them."
         />
 
         <div className="grid gap-4 md:grid-cols-3">
