@@ -27,20 +27,11 @@ export const projects: Project[] = [
     id: 'financial-crm',
     title: 'Financial CRM',
     description:
-      'Desktop CRM for tracking bills, bank balances, and spending with Entity Framework and SQL Server.',
+      'Finance CRM for bills, bank balances, and spending — ASP.NET MVC with Entity Framework and SQL Server.',
     category: 'backend',
-    stack: ['C#', '.NET', 'WinForms', 'Entity Framework', 'SQL Server'],
-    image: '/projects/financial-crm.png',
-  },
-  {
-    id: 'bank-finance-mvc',
-    title: 'Bank Finance Management',
-    description:
-      'ASP.NET MVC app for bank and finance operations: accounts, transactions, and admin views backed by SQL.',
-    category: 'backend',
-    stack: ['C#', 'ASP.NET Core MVC', 'SQL Server', 'Entity Framework'],
+    stack: ['C#', '.NET', 'ASP.NET Core MVC', 'Entity Framework', 'SQL Server'],
     github: 'https://github.com/rdmrcn/BANK-FINANCE-MANAGMENT-with-MVC-Proj',
-    image: '/projects/bank-finance.png',
+    image: '/projects/financial-crm.png',
   },
   {
     id: 'novastore',
