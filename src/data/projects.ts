@@ -85,7 +85,7 @@ export const projects: Project[] = [
     category: 'frontend',
     stack: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/rdmrcn/Simple-Weather-App-',
-    images: ['/projects/weather.svg'],
+    images: ['/projects/weather.png'],
   },
   {
     id: 'flask-website',
@@ -104,6 +104,6 @@ export const projects: Project[] = [
     category: 'mobile',
     stack: ['Unity', 'C#', 'Mobile'],
     github: 'https://github.com/rdmrcn/Match-Game-Unity-Project',
-    images: ['/projects/match-blast.svg'],
+    images: ['/projects/match-blast.png'],
   },
 ]
