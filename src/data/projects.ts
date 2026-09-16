@@ -31,7 +31,13 @@ export const projects: Project[] = [
     category: 'backend',
     stack: ['C#', '.NET', 'WinForms', 'Entity Framework', 'SQL Server'],
     github: 'https://github.com/rdmrcn/BANK-FINANCE-MANAGMENT-with-MVC-Proj',
-    images: ['/projects/financial-crm.png', '/projects/financial-crm-login.png'],
+    images: [
+      '/projects/financial-crm.png',
+      '/projects/financial-crm-menu.png',
+      '/projects/financial-crm-login.png',
+      '/projects/financial-crm-dashboard-2.png',
+      '/projects/financial-crm-copyright.png',
+    ],
   },
   {
     id: 'novastore',
@@ -76,7 +82,7 @@ export const projects: Project[] = [
     category: 'frontend',
     stack: ['React', 'JavaScript', 'CSS'],
     github: 'https://github.com/rdmrcn/Legendary-Gears---Web-Motorcycle-Shop',
-    images: ['/projects/motor-legends.png'],
+    images: ['/projects/motor-legends-catalog.png', '/projects/motor-legends.png'],
   },
   {
     id: 'weather',
