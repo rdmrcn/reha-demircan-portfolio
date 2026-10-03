@@ -24,6 +24,17 @@ export const projectFilters: { id: ProjectFilter; label: string }[] = [
 
 export const projects: Project[] = [
   {
+    id: 'bosfor-hotels',
+    title: 'Bosfor Hotels',
+    description:
+      'Istanbul house hotel site with six rooms, stay date totals, localStorage booking, and an Ask command desk.',
+    category: 'frontend',
+    stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'shadcn/ui'],
+    github: 'https://github.com/rdmrcn/HotelManagment-WebAPI',
+    liveDemo: 'https://rdmrcn.github.io/HotelManagment-WebAPI/',
+    images: ['/projects/bosfor-hotels.jpg'],
+  },
+  {
     id: 'financial-crm',
     title: 'Financial CRM',
     description:
