@@ -1,10 +1,18 @@
 # Reha Demircan — Portfolio
 
-Personal portfolio for **Reha Demircan**, Junior Software Developer. Single-page React app with a dark, mobile-first layout.
+Personal engineering portfolio for **Reha Demircan** — Software Engineer focused on frontend, full-stack web, and mobile applications.
 
-**Stack:** Vite · React · TypeScript · Tailwind CSS
+- **Live site:** https://reha-demircan-portfolio.vercel.app/
+- **Stack:** Vite · React 19 · TypeScript · Tailwind CSS 4 · Oxlint
 
-WEB LINK : https://reha-demircan-portfolio.vercel.app/
+## Highlights
+
+- **Editorial light-mode design system** built with warm stone surfaces, hairline typography (`Newsreader`, `Plus Jakarta Sans`, `IBM Plex Mono`), and bilingual **EN / TR** switching persisted in `localStorage`.
+- **Flagship case studies** with interactive screen switchers and architecture deep-dive modals for:
+  - **FORGE Supplements** ([live](https://forge-supplement-store.vercel.app) · [repo](https://github.com/rdmrcn/ForgeSuplements_WebPublic))
+  - **Bosfor Hotels** ([live](https://bosfor-hotel-tr.vercel.app) · [repo](https://github.com/rdmrcn/HotelManagment-WebAPI))
+- **Selected engineering archive** with track filters (`Frontend & Web`, `Full-Stack & SQL`, `Mobile`), including **Fathom Operations System**, **Coffee Hawai**, **Financial CRM**, **Legendary Gears**, **NovaStore SQL**, **TaskFlow**, and **Match Blast**.
+- **Experience, education, certifications, spoken languages**, and direct contact composer with one-click copy fallback.
 
 ## Local development
 
@@ -13,46 +21,13 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173).
+## Verification
 
 ```bash
+npm run lint
 npm run build
-npm run preview
 ```
 
-## Customize before you share it
+## Deployment
 
-| What | Where |
-| --- | --- |
-| Name, intro, email, GitHub, LinkedIn | `src/data/site.ts` |
-| Skills | `src/data/skills.ts` |
-| Projects (categories, copy, tags, links) | `src/data/projects.ts` |
-| Screenshots | Replace the placeholder area in `src/components/ProjectCard.tsx` (or add images under `public/` and pass a path) |
-| GitHub / Live Demo URLs | `github` and `liveDemo` on each project — `github` is `#` until you add repos |
-| CV file | Replace `public/Reha-Demircan-CV.pdf` with your real CV |
-| Contact form | Create a form at [Formspree](https://formspree.io), then set `formspreeEndpoint` in `src/data/site.ts`. Until then, submit opens a `mailto:` draft. |
-
-## Project filters
-
-Projects are stored in one array with a `category` of `backend`, `frontend`, or `mobile`. `Projects` filters that array; `ProjectCard` renders each item.
-
-- **Backend & SQL:** Financial CRM (WinForms + EF + SQL Server), NovaStore SQL database, ASP.NET Core MVC catalog
-- **Frontend:** React + Tailwind CRUD task manager (LocalStorage, Netlify-ready)
-- **Mobile:** Coffee Hawai Flutter catalog
-
-## Deploy on Vercel
-
-1. Push this folder to GitHub.
-2. Import the repo in [Vercel](https://vercel.com).
-3. Framework preset: **Vite**. Build command: `npm run build`. Output: `dist`.
-4. `vercel.json` rewrites unknown routes to `index.html` so the SPA keeps working if you add client routing later.
-
-You can also deploy with the Vercel CLI:
-
-```bash
-npx vercel
-```
-
-## License
-
-Personal portfolio. Use and adapt as you like.
+Configured for [Vercel](https://vercel.com) via `vercel.json` (`npm run build` → `dist`).
